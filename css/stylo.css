@@ -218,16 +218,16 @@ aside{
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-   
+    margin: 10px;
 }
 
-img{
+/* img{
     justify-content: center;
     align-content: center;
 }
+ */
 
-
-#img1{
+/* #img1{
     grid-column: 1/2;
     width: 50%;
     height: auto;
@@ -281,7 +281,7 @@ img{
     grid-column: 11/12;
     width: 50%;
     height: auto;
-}
+} */
 
 
 footer{
