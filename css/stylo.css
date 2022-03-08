@@ -218,11 +218,12 @@ aside{
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-   
+    margin: 10px;
+    grid-auto-rows: 80px ;
 }
 
 img{
-    justify-content: center;
+    align-self: center;
     align-content: center;
 }
  
@@ -230,7 +231,7 @@ img{
 #img1{
     grid-column: 1/2;
     width: 50%;
-    height: auto;
+
 }
 #img2{
     grid-column: 2/3;
