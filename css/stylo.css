@@ -225,10 +225,11 @@ aside{
 
 img{
     justify-self: center;
+    width: 40%;
 }
 
 
-#img1{
+/* #img1{
     grid-column: 1/2;
 
 }
@@ -262,7 +263,7 @@ img{
 }
 #img11{
     grid-column: 11/12;
-} 
+}  */
 
 
 footer{
