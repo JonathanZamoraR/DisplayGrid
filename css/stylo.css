@@ -219,11 +219,12 @@ aside{
     display: grid;
     grid-template-columns: repeat(11, 1fr);
     margin: 10px;
+    align-items: center;
 }
 
 img{
-    align-self: center;
-    align-content: center;
+    width: 40%;
+    justify-self: center;
 }
  
 
