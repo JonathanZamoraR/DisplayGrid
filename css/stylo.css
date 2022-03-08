@@ -112,7 +112,7 @@ main{
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    padding:10px;
+    padding: 10px;
     grid-column: 1 / 2;
     grid-row: 2/3;
     grid-template-rows: 4% 48% 48% ; 
@@ -218,17 +218,16 @@ aside{
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    margin: 10px;
     align-items: center;
     justify-content: space-between;
     align-items: center;
+
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
 }
 
-#img{
-    width: 50%;
-    height: 100%;
-    object-fit: cover;
-}
 
 
 /* #img1{
