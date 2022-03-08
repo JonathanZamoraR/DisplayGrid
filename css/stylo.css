@@ -1,4 +1,9 @@
 
+body{
+    height: 100vh;
+}
+
+
 header{
     background-color: #CCCCCC;
     border: 1px solid #999999;
@@ -90,7 +95,7 @@ main{
     padding: 10px 10px 10px 10px;
     display: grid;
     grid-template-columns: 85% 15%;
-    grid-auto-rows: 10% 80% 10%;
+    grid-auto-rows: 10px 500px 150px;
     color: #666666;
     font-weight: bold;
 }
@@ -221,11 +226,13 @@ aside{
     align-items: center;
     justify-content: space-between;
     align-items: center;
-
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
     padding: 10px;
+    margin: 10px;
+}
+
+#img{
+    width: 50%;
+    height: 50%;
 }
 
 
@@ -272,6 +279,7 @@ footer{
     border: 1px solid #999999;
     border-radius: 5px;
     margin-top: 10px;
+    margin-bottom: 10px;
     padding: 20px 10px 20px 10px;
     display: grid;
     grid-template-columns: 1fr;
