@@ -224,8 +224,9 @@ aside{
 }
 
 img{
-    justify-self: center;
-    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 
