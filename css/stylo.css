@@ -218,7 +218,7 @@ aside{
     grid-row: 3 / 4;
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    margin: 10px;
+   
 }
 
 img{
