@@ -217,7 +217,7 @@ aside{
     grid-column: 1 / 2;
     grid-row: 3 / 4;
     display: grid;
-    grid-template-columns: repeat(11, 8%);
+    grid-template-columns: repeat(11, 1fr);
     margin: 10px;
     align-items: center;
     justify-content: space-between;
@@ -225,10 +225,9 @@ aside{
 }
 
 #img{
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 
 
